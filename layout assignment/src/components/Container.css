@@ -1,0 +1,21 @@
+.Container, .container-2{
+    margin: 20px;
+}
+.Container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: 1fr;
+}
+.card_1{
+    height: 100%;
+}
+.card2-3-container{
+    display: grid;
+    gap: 20px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
